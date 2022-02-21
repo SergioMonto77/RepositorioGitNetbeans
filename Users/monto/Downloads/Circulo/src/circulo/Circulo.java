@@ -30,11 +30,13 @@ public class Circulo {
         
         
     }
+    //función para calcular el área
     public static void CalculaArea(double r) {
         double area=(PI*r*r);
 	System.out.printf("El valor del área es %f\n",area);
     }
     
+    //función para calcular la longitud
     public static void calcularlongitud(double r)
     {
         double longitudcirculo = (2*PI*r);
